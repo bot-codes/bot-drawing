@@ -11,8 +11,6 @@ import pyautogui
 import sys
 import pyfiglet
 
-# Essa parte afetárá completamente a qualidade
-# Nessa configuração atual o desenho é feito em torno de 1 minuto
 espacoPixels = 2.5
 tipoConversao = 'P'
 quantidadeCores = 32
@@ -20,21 +18,6 @@ tamanhoImagemX = 100
 tamanhoImagemY = 100
 pularBranco = True
 pyautogui.PAUSE = 1/100
-
-'''
-#Para configuração de qualidade máximma utilize assim:
-espacoPixels = 1 #Diminua tamanho do Pincel pra 1px neste caso (entre 1 e 10... ajuste conforme o tamanho do pincel)
-tipoConversao = 'RGB' (I,F,P,RGB)
-quantidadeCores = 256 (entre 0 e 16 milhões mas 256 costuma ser muito bom)
-tamanhoImagemX = 250 (entre 20 e 350)
-tamanhoImagemY = 250  (entre 20 e 350)
-pularBranco = False
-pyautogui.PAUSE = 1/1000
-
-#Vai levar de 10 à 20 minutos a imagem nessa configuração, qualidade HD
-'''
-
-
 
 globalConfig = []
 
